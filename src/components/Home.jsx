@@ -18,7 +18,7 @@ export const Home = () => {
       </div>
       <div>
         <Link to="/products">
-          <button className="rounded-lg border-gray-500 border border-solid bg-violet-300 px-5 py-2 ml-10">
+          <button className=" bg-violet-700 hover:bg-violet-500 text-white font-bold py-2 px-4 rounded ml-10">
             Buy books
           </button>
         </Link>

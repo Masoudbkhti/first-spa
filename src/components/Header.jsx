@@ -11,10 +11,18 @@ export const Header = () => {
           ></img>
         </div>
         <div class="text-white w-1/3 flex justify-around items-center text-lg">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/products">Products</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/" activeClassName="font-bold">
+            Home
+          </NavLink>
+          <NavLink to="/products" activeClassName="font-bold">
+            Products
+          </NavLink>
+          <NavLink to="/about" activeClassName="font-bold">
+            About
+          </NavLink>
+          <NavLink to="/contact" activeClassName="font-bold">
+            Contact
+          </NavLink>
         </div>
       </div>
     </>
