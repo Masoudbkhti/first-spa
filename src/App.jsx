@@ -1,6 +1,4 @@
-import { Header } from "./components/Header";
-import { Home } from "./components/Home";
-import { Footer } from "./components/Footer";
+import { Header, Home, Footer, Card, Products } from "./components/";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -9,6 +7,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products:id" element={<Card />} />
       </Routes>
       <Footer />
     </>
