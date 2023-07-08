@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
 import { Card } from "./Card";
+import sizif from "../assets/images/sizif.jpg";
+
 export const Products = () => {
   return (
     <div className="py-20 px-20 flex justify-center">
       <div className="grid grid-cols-3 gap-40">
         <Link to="/products/1">
-          <Card
-            img="../assets/images/sizif.jpg"
-            title="Der Mythos des Sisyphos"
-            price="18 Euro"
-          />
+          <Card img={sizif} title="Der Mythos des Sisyphos" price="18 Euro" />
         </Link>
         <Link to="/products/2">
           <Card
