@@ -6,7 +6,7 @@ export const Products = () => {
       <div className="grid grid-cols-3 gap-40">
         <Link to="/products/1">
           <Card
-            img="./assets/images/sizif.jpg"
+            img="../assets/images/sizif.jpg"
             title="Der Mythos des Sisyphos"
             price="18 Euro"
           />
