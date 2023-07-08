@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import { Card } from "./Card";
 import sizif from "../assets/images/sizif.jpg";
+import ikigai from "../assets/images/ikigay.jpg";
+import ablah from "../assets/images/ablah.jpg";
+import ansuyemarg from "../assets/images/ansuyemarg.jpg";
+import mana from "../assets/images/mana.jpg";
+import badbadakbaz from "../assets/images/badbadakbaz.jpg";
 
 export const Products = () => {
   return (
@@ -10,39 +15,19 @@ export const Products = () => {
           <Card img={sizif} title="Der Mythos des Sisyphos" price="18 Euro" />
         </Link>
         <Link to="/products/2">
-          <Card
-            img="./src/assets/images/ikigay.jpg"
-            title="Ikigai"
-            price="25 Euro"
-          />
+          <Card img={ikigai} title="Ikigai" price="25 Euro" />
         </Link>
         <Link to="/products/3">
-          <Card
-            img="./src/assets/images/ablah.jpg"
-            title="Der Idiot"
-            price="29 Euro"
-          />
+          <Card img={ablah} title="Der Idiot" price="29 Euro" />
         </Link>
         <Link to="/products/3">
-          <Card
-            img="./src/assets/images/ansuyemarg.jpg"
-            title="Jenseits des todes"
-            price="19 Euro"
-          />
+          <Card img={ansuyemarg} title="Jenseits des todes" price="19 Euro" />
         </Link>
         <Link to="/products/3">
-          <Card
-            img="./src/assets/images/mana.jpg"
-            title="Ja zum Leben"
-            price="39 Euro"
-          />
+          <Card img={mana} title="Ja zum Leben" price="39 Euro" />
         </Link>
         <Link to="/products/3">
-          <Card
-            img="./src/assets/images/badbadakbaz.jpg"
-            title="Drachenläufer"
-            price="49 Euro"
-          />
+          <Card img={badbadakbaz} title="Drachenläufer" price="49 Euro" />
         </Link>
       </div>
     </div>
