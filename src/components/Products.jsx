@@ -50,3 +50,42 @@ export const Products = () => {
     </div>
   );
 };
+
+/*
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { Card } from "./Card";
+
+export const Products = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("")
+      .then((response) => {
+        setProducts(response.data.products);
+        console.log(Products);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
+  return (
+    <div className="py-20 px-20 flex justify-center">
+      <div className="grid grid-cols-3 gap-40">
+        {products.map((product) => (
+          <Link key={product.id} to={`/products/${product.id}`}>
+            <Card
+              img={product.image}
+              title={product.title}
+              price={product.price}
+            />
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+*/
