@@ -1,4 +1,8 @@
-import { Header, Home, Footer, Card, Products } from "./components/";
+import { Header } from "./components/Header";
+import { Home } from "./components/Home";
+import { Products } from "./components/Products";
+import { Card } from "./components/Card";
+import { Footer } from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
