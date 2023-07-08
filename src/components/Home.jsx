@@ -1,5 +1,5 @@
 import mainImage from "../assets/images/main.jpg";
-
+import { Link } from "react-router-dom";
 export const Home = () => {
   const backgroundImage = `url(${mainImage})`;
 
@@ -17,9 +17,11 @@ export const Home = () => {
         </p>
       </div>
       <div>
-        <button className="rounded-lg border-gray-500 border border-solid bg-violet-300 px-5 py-2 ml-10">
-          Buy books
-        </button>
+        <Link to="/products">
+          <button className="rounded-lg border-gray-500 border border-solid bg-violet-300 px-5 py-2 ml-10">
+            Buy books
+          </button>
+        </Link>
       </div>
     </div>
   );
