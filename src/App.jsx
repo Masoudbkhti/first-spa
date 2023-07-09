@@ -3,6 +3,7 @@ import { Home } from "./components/Home";
 import { Products } from "./components/Products";
 import { ProductDetails } from "./components/ProductDetails";
 import { Footer } from "./components/Footer";
+import { About } from "./components/About";
 import { Route, Routes } from "react-router-dom";
 function App() {
   const products = {
@@ -66,7 +67,7 @@ function App() {
           path="/products/:id"
           element={<ProductDetails products={products} />}
         />
-        <Route path="/about-us" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </>
