@@ -4,7 +4,7 @@ export const Contact = () => {
     <div class="grid grid-cols-2">
       <img src={contactimg} class="w-screen"></img>
       <div class="py-20 px-36 flex flex-col justify-center items-center gap-10">
-        <h2 class="text-5xl font-bold">About us</h2>
+        <h2 class="text-5xl font-bold">Contact Us</h2>
         <p>
           One of the concerns of Iranians living abroad has always been the
           preparation of Iranian books; Because access to stores that sell
