@@ -66,6 +66,7 @@ function App() {
           path="/products/:id"
           element={<ProductDetails products={products} />}
         />
+        <Route path="/about-us" element={<About />} />
       </Routes>
       <Footer />
     </>
